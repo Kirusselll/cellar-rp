@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Cellar RolePlay</h1>
-      <h2 class="project-tagline">test</h2>
-      <a href="https://github.com/Kirusselll/cellar-rp" class="btn">View on GitHub</a>
-      <a href="https://github.com/Kirusselll/cellar-rp/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/Kirusselll/cellar-rp/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
-
+ 
   <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
     <source src="bg.webm" type="video/webm">
     <source src="bg.mp4" type="video/mp4">
 </video>
   
-  </body>
+  video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+ 
 </html>
