@@ -1,9 +1,3 @@
-{
-  "name": "Cellar-rp",
-  "tagline": "test",
-  "body": "123",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
 
 var vid = document.getElementById("bgvid");
 var pauseButton = document.querySelector("#polina button");
